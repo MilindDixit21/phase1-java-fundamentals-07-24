@@ -14,11 +14,15 @@ public class StringBufferDemo {
 		System.out.println(message);
 		
 		// replace text
-		message.replace(0, 1, "Y");
+		message.replace(0, 1, "t");
 		System.out.println(message);
 		
 		// delete text
 		message.delete(5, 8);
+		System.out.println(message);
+		
+		System.out.println("-------------------");
+		message.insert(6, "TEST ");
 		System.out.println(message);
 
 	}

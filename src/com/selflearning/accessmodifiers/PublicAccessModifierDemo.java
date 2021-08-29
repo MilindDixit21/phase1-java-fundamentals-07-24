@@ -3,6 +3,8 @@ package com.selflearning.accessmodifiers;
 public class PublicAccessModifierDemo {
 	
 	public static void main(String[] args) {
+		
+				
 		//create object
 		Father father = new Father();
 		System.out.println("Amount :"+father.amount);
@@ -19,6 +21,7 @@ class Father {
 	//public variables
 	public double amount = 8457.25d;
 	public String park ="River Front";
+
 	
 	//public methods
 	public double showAmount() {
@@ -28,7 +31,7 @@ class Father {
 		return park;
 	}
 	
-	//constructor, which has the same name as the class
+	//constructor which has the same name as the class
 	public Father() {
 		
 	}

@@ -7,7 +7,7 @@ public class DefaultAccessModifierDemo {
 		Brother brother = new Brother();
 		System.out.println("Money :"+brother.money);
 		System.out.println("Shoes :"+brother.shoes);
-		brother.showall();
+		brother.showAll();
 
 	}
 
@@ -19,7 +19,7 @@ public class DefaultAccessModifierDemo {
 	 String shoes = "Nike";
 
 	 //default method
-	  void showall() {
+	  void showAll() {
 		  System.out.println("Money :$"+money +" | Shoes :" +shoes);
 	 }
 	  

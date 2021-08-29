@@ -22,17 +22,17 @@ public class CalculatorDemo {
 		System.out.println("Number 2 is :"+y);
 		System.out.println("-------------");
 		
-		//creating object
+		//static methods ~ multiplication & division
+		System.out.println("Multiplicatin :"+Calculator.mul(x, y));
+		System.out.println("Division :"+Calculator.divison(x, y));
+				
+		//creating object for non static method
 		Calculator calculator = new Calculator();
 		
-		//non static methods
+		//non static methods ~ addition & subtraction & average
 		System.out.println("Addition :"+calculator.add(x, y));
 		System.out.println("Substraction :"+calculator.sub(x, y));
 		System.out.println("Average :"+calculator.avg(x, y));
-				
-		//static methods
-		System.out.println("Multiplicatin :"+Calculator.mul(x, y));
-		System.out.println("Division :"+Calculator.divison(x, y));
 				
 		
 		
@@ -87,3 +87,4 @@ class Calculator {
 		return result;
 	}
 }
+

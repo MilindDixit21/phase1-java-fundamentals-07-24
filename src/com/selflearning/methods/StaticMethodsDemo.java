@@ -8,7 +8,7 @@ public class StaticMethodsDemo {
 		StaticMethodsDemo.showMessages();
 		StaticMethodsDemo.showLuckyNumber(251);
 		StaticMethodsDemo.showDetails("New Jursey",03526);
-
+		System.out.println("lucky number 2 :"+ StaticMethodsDemo.showLuckyNumber2(555));
 	}
 	
 	// user defined methods : 1. parameterized 2. non-parameterized methods
@@ -16,7 +16,7 @@ public class StaticMethodsDemo {
 	// non-parameterized static method
 	
 	public static void showMessages() {
-		System.out.println(":: Welcome to Static Methods");
+		System.out.println(":: Welcome to Static Methods::");
 	}
 	
 	// one parameterized static method
@@ -29,5 +29,10 @@ public class StaticMethodsDemo {
 	public static void showDetails(String name, int accId) {
 		System.out.println("State : "+name +", ZIP : "+accId );
 	}
+	
+	public static int showLuckyNumber2(int number) {
+		return number;
+	}
+	
 
 }

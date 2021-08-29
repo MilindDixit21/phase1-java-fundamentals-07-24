@@ -6,7 +6,7 @@ public class BankLocker {
 		
 		Account account = new Account();
 		account.email = "mak@223.com"; // assigning value;
-		account.gender = "male";
+		account.gender = "Male";
 		
 		System.out.println("Locker Bank Name :"+ account.bankName);
 		/**
@@ -16,7 +16,6 @@ public class BankLocker {
 		System.out.println("User account email :"+ account.email);
 		System.out.println("User account gender :"+ account.gender);
 		account.showAccount();
-		
 
 	}
 
@@ -36,3 +35,5 @@ class Account {
 		System.out.println("Account Pin :"+accPin);
 	}
 }
+
+

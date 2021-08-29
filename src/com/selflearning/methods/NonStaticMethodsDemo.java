@@ -4,8 +4,12 @@ public class NonStaticMethodsDemo {
 
 	public static void main(String[] args) {
 		
-		// for non static methods > need to create instantiate object for every single time to access properties of that class.  ::> memory consumption issue.
+		// for non static methods 
+		// it needs to create instantiate object for every single time to access properties of that class.  ::> memory consumption issue.
+		
+		// instantiate class reference object
 		NonStaticMethodsDemo demo = new NonStaticMethodsDemo();
+		
 		demo.showMessage();
 		demo.showAuthor("Tom");
 		demo.displayDetails("auth@gmail.com", "a good author");

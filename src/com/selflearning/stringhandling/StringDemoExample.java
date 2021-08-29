@@ -18,7 +18,7 @@ public class StringDemoExample {
 		
 		System.out.println("-------------------------");
 		// string by new keyword
-		// each time new keyword is goint to generate new string reference.
+		// each time new keyword is going to generate new string reference.
 		
 		String username1 = new String("John Smith");
 		String username2 = new String("John Smith");
